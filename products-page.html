@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Header -->
+
+
+<head>
+ <title>Home Page</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+
+   <!-- Own js script file (Linking Validation) -->
+  <script defer src="scripts/script.js"></script>
+</head>
+<body>
+<header>
+
+ <!-- Navigation Bar -->
+ 
+<nav class="navbar navbar-expand-lg bg-body-tertiary"></nav>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+        <img src="images/skin-care-logo.png" alt="Bootstrap" width="70" height="64">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="registration-page.html">Registration</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            More
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="login-page.html">Login</a></li>
+            <li><a class="dropdown-item" href="products-page.html">Products</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="check-out-page.html">Check Out</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled"></a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+</header>
+
+
+<!-- 1st Product Card: Here I used boot strap to align the products. I grouped everything in a container 
+    and held the first 3 products in the same row. I also utilized boot strap to generate a drop down menu so the 
+    quantity can be picked-->
+
+<div class="container">
+    <h2 class="text-center mb-5">Featured Products</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="./images/sun_screen.webp" class="card-img-top" alt="Product 1">
+          <div class="card-body">
+            <h5 class="card-title">Glowscreen Sunscreen SPF</h5>
+                <label for="size-select">Quantity:</label>
+                <select class="form-control" id="Quantity">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                </select>
+           
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2nd Product Card: Done exactly the same as the previous one-->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="./images/skin_glow.webp" class="card-img-top" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">Watermelon Glow Niacinamide Dew Drops Serum</h5>
+            <label for="size-select">Quantity:</label>
+                <select class="form-control" id="Quantity">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                </select>
+            
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3rd Product Card: Done exactly the same as the previous ones-->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="./images/lotion.webp" class="card-img-top" alt="Product 3">
+          <div class="card-body">
+            <h5 class="card-title">CerVa Cream-to-Foam Hydrating Cleanser</h5>
+            <label for="size-select">Quantity:</label>
+                <select class="form-control" id="Quantity">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                </select>
+            
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4th Product Card: Here in order to get the grid system to work correctly, I grouped the next set of three product cards within a new div class= "row"-->
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="./images/fenty.webp" class="card-img-top" alt="Product 4">
+          <div class="card-body">
+            <h5 class="card-title">Fenty Skin Fat Water Niacinamide Pore-Refining Toner Serum with Barbados Cherry</h5>
+            <label for="size-select">Quantity:</label>
+                <select class="form-control" id="Quantity">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                </select>
+          
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+       <!-- 5th Product Card -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="./images/exfoliant.webp" class="card-img-top" alt="Product 5">
+          <div class="card-body">
+            <h5 class="card-title">Skin Perfecting 2% BHA Liquid Exfoliant</h5>
+            <label for="size-select">Quantity:</label>
+                <select class="form-control" id="Quantity">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                </select>
+            
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+       <!-- 6th Product Card -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="./images/avacado.serum.webp" class="card-img-top" alt="Product 6">
+          <div class="card-body">
+            <h5 class="card-title">Glow Recipe Avocado Soothing Skin Barrier Serum with Ceramides</h5>
+            <label for="size-select">Quantity:</label>
+                <select class="form-control" id="Quantity">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                </select>
+            
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
