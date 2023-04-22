@@ -1,0 +1,37 @@
+.bg-image{
+  background-image: url("../images/background.sign.up.image.webp");
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.background-image {
+  background-image: url('../images/skin.care.homepage.jpeg');
+  background-size: cover;
+  height: 100%;
+  text-align: left;
+  padding-top: 100px;
+  color: rgb(100, 74, 74);
+}
+
+.background-image h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.background-image p {
+  font-size: 20px;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.list {
+  font-size: 20px;
+  font-family: 'Helvetica', sans-serif;
+
+}
