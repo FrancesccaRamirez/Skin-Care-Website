@@ -1,8 +1,13 @@
 # Skin-Care-Website
  Skin-Care-Website
+
  
-I created an ecommerce website called "Feel Good Skin" that sells skin care products using HTML, CSS, Bootstrap, Javascript.
 Link to the website: http://127.0.0.1:5500/home.html 
+
+Overview: "Feel Good Skin" is skin care focused e-commerce website. This website contains a home page, a registration page, a login page, and a products page. 
+
+Languages used: HTML, CSS, Bootstrap, Javascript.
+
 
 ![Home Page](https://github.com/FrancesccaRamirez/Skin-Care-Website/raw/main/images/README.images/Homepage-Feel%20Good%20Skin.png)
 
