@@ -19,9 +19,9 @@ The Home Page serves as an informational section where users can learn about Fee
 ![Login](https://github.com/FrancesccaRamirez/Skin-Care-Website/raw/main/images/README.images/Login-Feel%20Good%20Skin.png)
 
 
-
 ![Products Page 1](https://github.com/FrancesccaRamirez/Skin-Care-Website/raw/main/images/README.images/Products%20page-Feel%20Good%20Skin.png)
 
-![Products Page 2](https://github.com/FrancesccaRamirez/Skin-Care-Website/raw/main/images/README.images/Products%20(2)-Feel%20Good%20Skin.png)
+![Products Page 2](https://github.com/FrancesccaRamirez/Skin-Care-Website/raw/main/images/README.images/Products%20(2)-Feel%20Good%20Skin.png)<img width="58" alt="Screen Shot 2023-08-23 at 12 47 53 AM" src="https://github.com/FrancesccaRamirez/Skin-Care-Website/assets/130613476/56d180b2-f4ff-4039-bd75-4113cf9c1217">
+
 
 ![Check Out](https://github.com/FrancesccaRamirez/Skin-Care-Website/raw/main/images/README.images/Checkout%20page-%20Feel%20Good%20Skin%20.png)
