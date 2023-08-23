@@ -11,7 +11,7 @@ Languages used: HTML, CSS, Bootstrap, Javascript.
 
 ![Home Page](https://github.com/FrancesccaRamirez/Skin-Care-Website/raw/main/images/README.images/Homepage-Feel%20Good%20Skin.png)
 
-The Home Page serves as an informational section where users can learn about Feel Good Skin's 
+The Home Page serves as an informational section where users can learn about Feel Good Skin's mission. The home page also contains information about the website's top selling products. At the very top, the website hyper links in the navigation bar where users click on either the registration page, login page, products page, or the checkout page.
 
 ![Registration](https://github.com/FrancesccaRamirez/Skin-Care-Website/raw/main/images/README.images/Registration-Feel%20Good%20Skin.png)
 
