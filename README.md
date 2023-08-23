@@ -4,7 +4,7 @@
  
 Link to the website: http://127.0.0.1:5500/home.html 
 
-Overview: "Feel Good Skin" is skin care focused e-commerce website. This website contains a home page, a registration page, a login page, and a products page. 
+Overview: "Feel Good Skin" is skin care focused e-commerce website. This website contains a home page, a registration page, a login page, a products page, and a checkout page.
 
 Languages used: HTML, CSS, Bootstrap, Javascript.
 
